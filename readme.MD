@@ -28,7 +28,7 @@ spring:
       trust-all: true
 ```
 
-5. 构建一个数据Model,可以发送和消费的数据类型有: String, byte array, Map<tring,?>, Serializable object.
+5. 构建一个数据Model,可以发送和消费的数据类型有: String, byte array, Map&lt;String,?>, Serializable object.
 ```java
 // 如果发送的消息是一个对象，必须implements Serializable接口
 public class TModel implements Serializable {
