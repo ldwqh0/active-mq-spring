@@ -81,3 +81,5 @@ public class Consumer {
 
 
 特别备注：如果我们的生产者和消费者在不同的Module中时，最好将要消费的数据抽象成公共Module.程序是通过Serializable来序列化和反序列化对象的。必须保证生产者和消费者的对象模型的serialVersionUID是一致的。
+
+项目地址: https://github.com/ldwqh0/active-mq-spring.git
